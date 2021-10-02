@@ -1,0 +1,150 @@
+body{
+    background:#FDFDFD;
+    font-size: 16px;
+    font-family: 'Gemunu Libre', sans-serif;
+    color:#666666;
+    margin:10px 0px 20px 0px;
+    text-align:justify;
+    height: 100%;
+    }
+    #container{
+    text-align:left;
+    width:98.5%;
+    background:#a9acab;
+    margin:auto;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+     
+    }
+    #cabecera{
+    height:120px;
+    width:auto;
+    background:#aef1f3bd;
+    }
+    .menu-main{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    .menu-1 {
+        float: left;
+    }
+    
+    .menu-1 a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .menu-1 a:hover:not(.active) {
+        background-color: #111;
+    }
+    
+    .active {
+        background-color: #4CAF50;
+    }
+   
+    #cuerpo{
+        margin: 10px 0px 10px 0px;
+        height:100%;
+    }
+    #lateral{
+        width: 135px;
+        background:#ff0000;
+        float:left;
+        margin:auto;
+    }
+    #otrolado{
+        width: 145px;
+        background:#FFFFFF;
+        float: right;
+    }
+    #principal{
+        margin-left:140px;
+        margin-top:auto;
+        background-color: #ee0000;
+        padding: -10px 0px 0px 0px;
+        width: 510px;
+        text-align:justify;
+        height:1%;
+    }
+    #piedepagina{
+        background-color: #111;
+        color: white;
+    }
+     
+    h1.underline {
+      background-color: #666666;
+      font-family: georgia, "times new roman", times, serif;
+      font-weight: lighter;
+    }
+    p{
+    margin:0px;
+    padding:0px 0px 0px 0px;
+    text-align:justify;
+    position:inherit;
+    }
+
+    ul, li{margin:0; padding:0; list-style:none;}
+    .menu_head {border:0px solid #998675;} 
+    .menu_body {display:none;width:129px;border-right:1px solid #998675;border-bottom:1px solid #998675;border-left:1px solid #998675;}  
+    .menu_body li {background:#000000;}  
+    .menu_body li a {color:#FFFFFF; text-decoration:none; padding:5px; display:block;}  
+    .menu_body li.alt {background:#333333;} 
+    .menu_body li a:hover {padding:5px 0px; font-weight:bold;}
+
+    /*--------------------------------------------*/
+    /* Style The Dropdown Button */
+
+    
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    width: 135px
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fa0000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #444141}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
